@@ -100,9 +100,10 @@ DATABASES = {
 }
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOWED_ORIGINS = ["https://animated-broccoli-46xwqx9jvpp29jg-3000.app.github.dev"]
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = ['*']
-CORS_ALLOW_METHODS = ['*']
+# CORS_ALLOW_HEADERS = ['*']
+# CORS_ALLOW_METHODS = ['*']
 
 
 # Password validation
