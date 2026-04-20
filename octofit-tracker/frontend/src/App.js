@@ -25,7 +25,7 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item"><Link className="nav-link" to="/activities">Activities</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/leaderboard">Leaderboard</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/leaderboards">Leaderboard</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/teams">Teams</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/users">Users</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/workouts">Workouts</Link></li>
@@ -35,7 +35,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/activities" element={<Activities />} />
-          <Route path="/leaderboard" element={<Leaderboard />} />
+          <Route path="/leaderboards" element={<Leaderboard />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/users" element={<Users />} />
           <Route path="/workouts" element={<Workouts />} />
